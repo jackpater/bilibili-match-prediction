@@ -40,8 +40,8 @@ public class HttpUtil {
             .setSocketTimeout(10000)
             .build();
     static Verify verify = Verify.getInstance();
-    private final static String userAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) " +
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.54";
+    private final static String userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36";
     private static CloseableHttpClient httpClient = null;
     private static CloseableHttpResponse httpResponse = null;
 
